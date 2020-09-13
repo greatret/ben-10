@@ -465,6 +465,7 @@ header {
         // line-height: 2.5;
         text-align: center;
         width: 100%;
+        margin-top: 50px;
     }
 
     .category-section-row {
@@ -473,7 +474,7 @@ header {
         justify-content: space-around;
         width: 80%;
         height: 350px;
-        margin: 100px auto;
+        margin: 50px auto;
 
         .left {
             width: 45%;
@@ -555,15 +556,14 @@ header {
     .category-section {
         .category-heading {
             font-size: 30px;
+            margin-top: 30px;
         }
 
         .category-section-row {
             height: 120px !important;
             margin: 40px auto !important;
 
-            .category-heading {
-                font-size: 20px;
-            }
+
 
             .mobiles,
             .refrigerators,

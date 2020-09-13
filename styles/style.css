@@ -460,6 +460,7 @@ header .nav-links .nav-link:hover::after, header .nav-links .nav-link:focus::aft
   letter-spacing: 7px;
   text-align: center;
   width: 100%;
+  margin-top: 50px;
 }
 
 .category-section .category-section-row {
@@ -473,7 +474,7 @@ header .nav-links .nav-link:hover::after, header .nav-links .nav-link:focus::aft
       justify-content: space-around;
   width: 80%;
   height: 350px;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 .category-section .category-section-row .left {
@@ -558,13 +559,11 @@ header .nav-links .nav-link:hover::after, header .nav-links .nav-link:focus::aft
 @media screen and (max-width: 768px) {
   .category-section .category-heading {
     font-size: 30px;
+    margin-top: 30px;
   }
   .category-section .category-section-row {
     height: 120px !important;
     margin: 40px auto !important;
-  }
-  .category-section .category-section-row .category-heading {
-    font-size: 20px;
   }
   .category-section .category-section-row .mobiles::after,
   .category-section .category-section-row .refrigerators::after,
