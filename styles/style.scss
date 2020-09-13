@@ -26,6 +26,10 @@ sans-serif;
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: none;
+}
+
 body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
@@ -663,7 +667,8 @@ header {
     letter-spacing: 4px;
     font-size: 18px;
 
-    &:hover {
+    &:hover,
+    &:focus {
         background-color: lighten($sky-blue, 30%);
     }
 }

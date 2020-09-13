@@ -26,6 +26,10 @@ sans-serif;
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: none;
+}
+
 body {
     min-height: 100vh;
     min-height: -webkit-fill-available;

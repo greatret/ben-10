@@ -7,6 +7,10 @@
           box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
@@ -668,7 +672,7 @@ header .nav-links .nav-link:hover::after, header .nav-links .nav-link:focus::aft
   font-size: 18px;
 }
 
-.modal-button:hover {
+.modal-button:hover, .modal-button:focus {
   background-color: #a2e9e2;
 }
 
