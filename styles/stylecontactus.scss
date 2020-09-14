@@ -392,6 +392,17 @@ header {
     background-color: rgba(196, 196, 196, 0.117);
 }
 
+.form-confirmation-text {
+    background: $dark-blue;
+    color: $other-white;
+    text-align: center;
+    font-family: $raleway;
+    font-size: 18px;
+    letter-spacing: -1px;
+    display: none;
+}
+
+
 @media screen and (max-width:425px) {
     .contact-us-above {
         flex-direction: column;

@@ -380,6 +380,16 @@ header .nav-links .nav-link:hover::after, header .nav-links .nav-link:focus::aft
   background-color: rgba(196, 196, 196, 0.117);
 }
 
+.form-confirmation-text {
+  background: #011627;
+  color: #FAFAFA;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  letter-spacing: -1px;
+  display: none;
+}
+
 @media screen and (max-width: 425px) {
   .contact-us-above {
     -webkit-box-orient: vertical;
