@@ -121,7 +121,7 @@ header {
     min-width: 80%;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(168, 164, 164, 0.15);
+    box-shadow: 0 0 20px rgba(236, 230, 230, 0.157);
 }
 
 .content-table thead tr {
@@ -147,7 +147,7 @@ header {
 }
 
 .content-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid $sky-blue;
 }
 
 
@@ -159,7 +159,7 @@ header {
 
     .content-table {
         overflow: scroll;
-        border-radius: 5px 5px !important;
+        border-radius: 5px 5px 0 0 !important;
         min-width: 300px;
         width: 90%;
         margin: 0 auto;

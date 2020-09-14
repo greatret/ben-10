@@ -97,8 +97,8 @@ header .nav-links .nav-link:hover::after, header .nav-links .nav-link:focus::aft
   min-width: 80%;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-  -webkit-box-shadow: 0 0 20px rgba(168, 164, 164, 0.15);
-          box-shadow: 0 0 20px rgba(168, 164, 164, 0.15);
+  -webkit-box-shadow: 0 0 20px rgba(236, 230, 230, 0.157);
+          box-shadow: 0 0 20px rgba(236, 230, 230, 0.157);
 }
 
 .content-table thead tr {
@@ -124,7 +124,7 @@ header .nav-links .nav-link:hover::after, header .nav-links .nav-link:focus::aft
 }
 
 .content-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
+  border-bottom: 2px solid #2EC4B6;
 }
 
 @media screen and (max-width: 425px) {
@@ -134,7 +134,7 @@ header .nav-links .nav-link:hover::after, header .nav-links .nav-link:focus::aft
   }
   .content-table {
     overflow: scroll;
-    border-radius: 5px 5px !important;
+    border-radius: 5px 5px 0 0 !important;
     min-width: 300px;
     width: 90%;
     margin: 0 auto;

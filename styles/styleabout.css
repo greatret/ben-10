@@ -13,12 +13,7 @@
 
 body {
   min-height: 100vh;
-  min-height: -webkit-fill-available;
   overflow-x: hidden;
-}
-
-html {
-  height: -webkit-fill-available;
 }
 
 header {
