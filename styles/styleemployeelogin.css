@@ -94,6 +94,18 @@ header .nav-links .nav-link:hover::after, header .nav-links .nav-link:focus::aft
   position: relative;
 }
 
+.form-prop1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 200px;
+  height: 200px;
+  opacity: .1;
+  border-radius: 50%;
+  background-color: #E71D36;
+  z-index: -1;
+}
+
 .employeelogin-form {
   position: absolute;
   width: 40%;
@@ -112,6 +124,7 @@ header .nav-links .nav-link:hover::after, header .nav-links .nav-link:focus::aft
   font-size: 40px;
   font-family: "Raleway", sans-serif;
   color: #FAFAFA;
+  letter-spacing: 3px;
 }
 
 .email,
@@ -176,6 +189,7 @@ header .nav-links .nav-link:hover::after, header .nav-links .nav-link:focus::aft
 #result {
   font-size: 16px;
   font-family: "DM Sans", sans-serif;
+  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 768px) {

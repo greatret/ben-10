@@ -20,6 +20,8 @@ burger.addEventListener('click', () => {
 
 
 
+
+
 // *****************************modal script
 
 
@@ -37,7 +39,6 @@ function modal_magic(flag) //true appear false disappear
     if (flag) {
         modal_container.style.display = "block";
     } else {
-        // modal_container.style.visiblity = "hidden"
         modal_container.style.display = 'none';
 
     }

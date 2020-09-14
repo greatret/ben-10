@@ -56,9 +56,6 @@ header {
     height: 10vh;
     width: 100vw;
 
-
-
-
     .nav-links {
         display: flex;
         list-style: none;
@@ -118,6 +115,18 @@ header {
     position: relative;
 }
 
+.form-prop1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    opacity: .1;
+    border-radius: 50%;
+    background-color: $red;
+    z-index: -1;
+}
+
 .employeelogin-form {
     position: absolute;
     width: 40%;
@@ -135,6 +144,7 @@ header {
     font-size: 40px;
     font-family: $raleway;
     color: $other-white;
+    letter-spacing: 3px;
 }
 
 .email,
@@ -200,7 +210,7 @@ header {
 #result {
     font-size: 16px;
     font-family: $dm-sans;
-
+    letter-spacing: 2px;
 }
 
 @media screen and (max-width:768px) {
