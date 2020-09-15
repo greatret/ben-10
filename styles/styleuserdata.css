@@ -89,6 +89,13 @@ header .nav-links .nav-link:hover::after, header .nav-links .nav-link:focus::aft
   padding: 100px;
 }
 
+.table-heading {
+  text-align: center;
+  color: #FAFAFA;
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
 .content-table {
   border-collapse: collapse;
   margin: 10px auto;

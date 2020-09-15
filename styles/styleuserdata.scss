@@ -113,6 +113,14 @@ header {
     padding: 100px;
 }
 
+.table-heading {
+    text-align: center;
+    color: $other-white;
+    padding: 10px;
+    font-family: $raleway;
+
+}
+
 .content-table {
     border-collapse: collapse;
     margin: 10px auto;
