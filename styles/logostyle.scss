@@ -164,17 +164,17 @@
 
 @media screen and (max-width:768px) {
     .logo {
-        margin-left: 6px;
+        margin-left: 6px !important;
     }
 
 
     .pcb {
-        width: 35px;
-        height: 35px;
+        width: 35px !important;
+        height: 35px !important;
     }
 
     .text {
-        width: 220px;
-        height: 30px;
+        width: 220px !important;
+        height: 30px !important;
     }
 }
